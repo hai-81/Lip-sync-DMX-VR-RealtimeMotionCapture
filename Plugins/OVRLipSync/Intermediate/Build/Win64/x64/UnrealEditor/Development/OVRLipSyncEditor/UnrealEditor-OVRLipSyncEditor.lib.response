@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-OVRLipSyncEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Inoue\live\OVRLipSyncUnrealDemo\Intermediate\Build\Win64\x64\OVRLipSyncDemoEditor\Development\Engine\SharedPCH.Engine.InclOrderUnreal5_0.h.obj"
+"E:\Inoue\live\OVRLipSyncUnrealDemo\Plugins\OVRLipSync\Intermediate\Build\Win64\x64\UnrealEditor\Development\OVRLipSyncEditor\OVRLipSyncEditorModule.cpp.obj"
+"E:\Inoue\live\OVRLipSyncUnrealDemo\Plugins\OVRLipSync\Intermediate\Build\Win64\x64\UnrealEditor\Development\OVRLipSyncEditor\Default.rc2.res"
+/OUT:"E:\Inoue\live\OVRLipSyncUnrealDemo\Plugins\OVRLipSync\Intermediate\Build\Win64\x64\UnrealEditor\Development\OVRLipSyncEditor\UnrealEditor-OVRLipSyncEditor.lib"

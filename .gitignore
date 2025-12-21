@@ -1,0 +1,115 @@
+# Visual Studio 2015/2017/2019/2022 user specific files
+.vs/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Built data
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.dylib
+
+# Logs
+*.log
+*.tmp
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Unreal specific
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.sdf
+*.db
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# Crash reports
+*.dmp
+
+# Autosave
+*.autosave
+
+# Screenshots
+*.png
+!**/Resources/*.png
+
+# Compiled assets
+*.uasset.bak
+*.umap.bak
+
+# Content Browser metadata
+*.uasset.meta
+*.umap.meta
+
+# Plugin binaries (keep source)
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Keep plugin source and content
+!Plugins/*/Source/
+!Plugins/*/Content/
+!Plugins/*/*.uplugin
+
+# Keep ThirdParty source headers
+!Plugins/*/ThirdParty/**/*.h
+!Plugins/*/ThirdParty/**/*.hpp
+!Plugins/*/ThirdParty/**/*.inl
+
+# Exclude large binary files in ThirdParty
+Plugins/*/ThirdParty/**/*.a
+Plugins/*/ThirdParty/**/*.lib
+Plugins/*/ThirdParty/**/*.so
+Plugins/*/ThirdParty/**/*.dylib
+Plugins/*/ThirdParty/**/*.dll
+
+# Keep project file
+*.uproject
+
+# Keep config files
+Config/
+
+# Keep Content directory (but exclude autosaves)
+Content/
+!Content/**/Autosaves/
+
+# Exclude large media files (optional - uncomment if you want to exclude videos)
+# Content/**/*.mp4
+# Content/**/*.mov
+# Content/**/*.avi
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Package restore data
+Saved/Autosaves/PackageRestoreData.json
+
