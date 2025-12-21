@@ -99,10 +99,17 @@ Config/
 Content/
 !Content/**/Autosaves/
 
-# Exclude large media files (optional - uncomment if you want to exclude videos)
-# Content/**/*.mp4
-# Content/**/*.mov
-# Content/**/*.avi
+# Exclude large media files
+Content/**/*.mp4
+Content/**/*.mov
+Content/**/*.avi
+
+# Exclude debug files (PDB files are large and not needed in repository)
+*.pdb
+**/*.pdb
+
+# Exclude large intermediate files
+Intermediate/CachedAssetRegistry.bin
 
 # Python cache
 __pycache__/
