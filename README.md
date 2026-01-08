@@ -1,4 +1,4 @@
-# Sotusei 5.2 - Unreal Engine プロジェクト
+# Lip-sync-DMX-VR-Realtime Motion Capture 5.2 - Unreal Engine プロジェクト
 
 Unreal Engine 5.2を使用したコンサートステージ・ライブ演出プロジェクトです。DMX照明制御、VRMキャラクター、リップシンク機能などを統合したライブ演出システムです。
 
